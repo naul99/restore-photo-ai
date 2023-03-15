@@ -1,0 +1,37 @@
+import { UploadWidgetConfig } from "uploader";
+
+const myCustomLocale: UploadWidgetConfig["locale"] = {
+  addAnotherFile: "",
+  addAnotherImage: "",
+  cancel: "",
+  "cancelled!": "",
+  continue: "",
+  crop: "",
+  customValidationFailed: "",
+  done: "",
+  "error!": "",
+  finish: "",
+  finishIcon: false,
+  image: "",
+  maxFilesReached: "",
+  maxImagesReached: "",
+  maxSize: "",
+  next: "",
+  of: "",
+  orDragDropFile: "",
+  orDragDropFiles: "",
+  orDragDropImage: "...hoặc kéo và thả ảnh vào đây.",
+  orDragDropImages: "",
+  pleaseWait: "",
+  remove: "",
+  "removed!": "",
+  skip: "",
+  unsupportedFileType: "",
+  uploadFile: "",
+  uploadFiles: "",
+  uploadImage: "Bấm để tải ảnh lên",
+  uploadImages: "",
+  validatingFile: "",
+};
+
+export default myCustomLocale;
